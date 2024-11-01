@@ -9,7 +9,8 @@ public class PercolationStats {
 
     // perform independent trials on an n-by-n grid
     public PercolationStats(int n, int trials) {
-        if (n <= 0 || trials <= 0) throw new IllegalArgumentException("n and trials must be greater than 0");
+        if (n <= 0 || trials <= 0)
+            throw new IllegalArgumentException("n and trials must be greater than 0");
         double[] thresholds = new double[trials];
         for (int i = 0; i < trials; i++) {
             Percolation percolation = new Percolation(n);

@@ -18,7 +18,8 @@ public class Percolation {
     }
 
     private int getIndex(int row, int col) {
-        if (row <= 0 || row > n || col <= 0 || col > n) throw new IllegalArgumentException("row and col should be between 1 and n");
+        if (row <= 0 || row > n || col <= 0 || col > n)
+            throw new IllegalArgumentException("row and col should be between 1 and n");
         return ((row - 1) * n + col);
     }
 
