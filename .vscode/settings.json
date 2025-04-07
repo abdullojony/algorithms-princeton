@@ -1,7 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "algs4.jar",
-        "JUnit/algs4.jar"
-    ]
-}
